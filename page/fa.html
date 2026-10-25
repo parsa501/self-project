@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>نام شما — نمونه‌کار</title>
+  <meta name="description" content="وب‌سایت شخصی نام شما، توسعه‌دهنده وب." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#" class="logo">نام‌شما</a>
+      <nav>
+        <ul>
+          <li><a href="#about">درباره من</a></li>
+          <li><a href="#projects">پروژه‌ها</a></li>
+          <li><a href="#contact">تماس</a></li>
+        </ul>
+      </nav>
+      <div class="tools">
+        <a class="lang" href="../index.html" hreflang="en">English</a>
+        <button class="btn-icon" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="tag">سلام، من</p>
+        <h1>نام شما هستم.<br />برای وب چیز می‌سازم.</h1>
+        <p>یک جمله کوتاه درباره کاری که انجام می‌دهید و چیزهایی که برایتان مهم است. ساده و صمیمی بنویسید.</p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">دیدن نمونه‌کارها</a>
+          <a href="#contact" class="btn">ارتباط با من</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>درباره من</h2>
+        <p>دو یا سه جمله درباره سابقه، علایق و پروژه‌ای که الان روی آن کار می‌کنید بنویسید.</p>
+        <div class="skills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Git</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>پروژه‌ها</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="thumb"></div>
+            <h3>پروژه اول</h3>
+            <p>توضیح کوتاه درباره پروژه و ابزارهایی که استفاده کرده‌اید.</p>
+          </article>
+          <article class="card">
+            <div class="thumb"></div>
+            <h3>پروژه دوم</h3>
+            <p>توضیح کوتاه درباره پروژه و ابزارهایی که استفاده کرده‌اید.</p>
+          </article>
+          <article class="card">
+            <div class="thumb"></div>
+            <h3>پروژه سوم</h3>
+            <p>توضیح کوتاه درباره پروژه و ابزارهایی که استفاده کرده‌اید.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>تماس</h2>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="نام شما" required />
+          <input type="email" name="email" placeholder="ایمیل شما" required dir="ltr" style="text-align:right" />
+          <textarea name="message" placeholder="پیام شما" required></textarea>
+          <button type="submit" class="btn primary">ارسال پیام</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>© ۲۰۲۶ نام شما</footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
