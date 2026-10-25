@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name — Portfolio</title>
+    <meta
+      name="description"
+      content="Personal website of Your Name, web developer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Vazirmatn:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a href="#" class="logo">YourName</a>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="tools">
+          <a class="lang" href="./page/fa.html" hreflang="fa">فارسی</a>
+          <button class="btn-icon" id="theme-toggle" aria-label="Toggle theme">
+            🌙
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <p class="tag">Hi, I'm</p>
+          <h1>Your Name.<br />I build things for the web.</h1>
+          <p>
+            A short sentence about what you do and what you care about. Keep it
+            clear and friendly.
+          </p>
+          <div class="cta">
+            <a href="#projects" class="btn primary">View my work</a>
+            <a href="#contact" class="btn">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2>About me</h2>
+          <p>
+            Write two or three sentences about your background, your interests,
+            and what you are working on right now.
+          </p>
+          <div class="skills">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span
+            ><span>React</span><span>Git</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="grid">
+            <article class="card">
+              <div class="thumb"></div>
+              <h3>Project One</h3>
+              <p>Short description of the project and the tools you used.</p>
+            </article>
+            <article class="card">
+              <div class="thumb"></div>
+              <h3>Project Two</h3>
+              <p>Short description of the project and the tools you used.</p>
+            </article>
+            <article class="card">
+              <div class="thumb"></div>
+              <h3>Project Three</h3>
+              <p>Short description of the project and the tools you used.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <button type="submit" class="btn primary">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2026 Your Name</footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
